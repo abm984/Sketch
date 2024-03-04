@@ -48,8 +48,8 @@ warnings.filterwarnings("ignore")
 def save_base64_to_s3(base64_data, bucket_name, file_name):
     s3 = boto3.client(
         's3',
-        aws_access_key_id="AKIASPWDOKNSB44BNA7P",
-        aws_secret_access_key="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" # Add full S3 access to these keys
+        aws_access_key_id="XXXXXXXXXXXX",
+        aws_secret_access_key="XXXXXXXXXXX" # Add full S3 access to these keys
     )
     decoded_data = base64.b64decode(base64_data)
 
